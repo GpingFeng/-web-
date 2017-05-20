@@ -1,0 +1,115 @@
+html{
+	font-size: 62.5%;
+	margin: 0px;
+	padding:0px;
+}
+
+body{
+	width: 100%;
+	max-width: 980px;
+	font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1.4rem;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background: #fff;
+}
+
+/*热销商品*/
+#hotHeader{
+	max-width: 980px;
+	width: 100%;
+	padding: 10px 20px;
+	color: #fff;
+	position: relative;
+	top: 170px;
+	height: 40px;
+	/*line-height: 40px;*/
+	font-size: 1.3rem;
+	background: #49a6ec;
+}
+
+#hotHeader a{
+	color: #fff;
+}
+
+#hotHeader a span{
+	padding-right: 10px;
+}
+
+.hotList{
+	max-width: 980px;
+	width: 100%;
+	position: relative;
+	top: 180px;
+	margin-bottom: 76px;
+
+}
+
+.hotList li{
+	width: 100%;
+	list-style-type: none;
+	margin: 5px 0px;
+	margin-left: -20px;
+	border-bottom: 1px solid #ccc;
+	height: 120px;
+	margin-bottom: 30px;
+}
+
+.hotList li .hotImg img{
+	width: 30%;
+	float: left;
+	height: 110px;
+}
+
+.hotList a{
+	color: #000;
+	text-decoration: none;
+}
+
+.hotList .hotIntro{
+	width: 65%;
+	/*padding: 0 0px;*/
+	float: right;
+}
+
+.hotList .hotIntro h1{
+	font-size: 1.6rem;
+	white-space:nowrap;
+	font-weight: bold;
+	overflow: hidden;
+	width: 90%;
+	margin-top: 0%;
+}
+
+.hotList .hotIntro .intro{
+	font-size: 1.3rem;
+	white-space: nowrap;
+	width: 90%;
+	color: #ccc;
+	margin-right: 30px;
+	overflow: hidden;
+}
+
+
+.hotList .hotIntro h2 span{
+	display: inline-block;
+	float: left;
+	font-size:1rem;
+	padding: 3px;
+	margin-right: 4px;
+	background: #ce8483;
+	margin-top: -4px;
+}
+
+.hotList .hotIntro .price{
+	color: #ff0000;
+}
+
+.hotList .hotIntro .price span{
+	font-size: 1.8rem;
+}
+
+.hotList .hotIntro .price small.payed{
+	color: #ccc;
+	padding-left: 30px;
+}

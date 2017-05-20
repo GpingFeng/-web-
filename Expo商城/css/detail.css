@@ -1,0 +1,249 @@
+/*头部*/
+#header{
+	max-width: 980px;
+	width: 100%;
+	min-height: 42px;
+	background: #49a6ec;
+	margin: 0 auto;
+}
+
+.leave{
+	margin: 10px 0 0 20px;
+	vertical-align: middle;
+	font-size:2rem;
+	float: left;
+	vertical-align: middle;
+	margin-bottom: 3px;
+	float: left;
+	display: inline-block;
+	color: #fff;
+	width: 30%;
+}
+	
+.header{
+	display: inline-block;
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-top: 7px;
+	color: #fff;
+	font-size: 2rem;	
+}
+
+.listLeft{
+	float: right;
+	font-size: 2rem;
+	margin: 8px 20px;
+	color: #fff;	
+}
+
+/*轮播部分*/
+#carousel-example-generic{
+	width: 100%;
+}
+
+/*介绍商品信息*/
+.detailContainer{
+	margin-top: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.detailContainer .title{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.detailContainer .title .leftTitle{
+	font-size: 2rem;
+	margin: 20px;
+}
+
+.detailContainer .title .rightLeave{
+	color: #fff;
+	background: #f00;
+	padding: 4px;
+	border-radius: 3px;
+	float: right;
+	margin-right: 20px;
+}
+
+.detailContainer .detailsIntro{
+		margin: 10px 20px 0 30px;
+}
+.detailContainer .detailsIntro .money{
+	color: #f00;
+	font-weight: bolder;
+	font-size: 1.6rem;
+	float: left;
+	margin-right: 30px;
+}
+
+.detailContainer .detailsIntro .money .num{
+	font-size: 2rem;
+}
+
+.detailContainer .detailsIntro s{
+	margin: 8px 0 ;
+	float: left;
+}
+
+.detailContainer .detailsIntro span.tag{
+	float: right;
+	margin: 0px 5px;
+	background: #ffa500;
+	border-radius: 4px;
+	padding: 2px;
+}
+
+.detailContainer .detailsIntro p{
+	clear: both;
+	color: #ccc;
+
+}
+
+/*选择商品*/
+#choose{
+	color: #ccc;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+#choose .rightLogo{
+	float: right;
+	margin-right: 20px;
+}
+
+/*商品详情、累计评论、成交记录*/
+.details ul#myTab{
+	width: 100%;
+}
+
+.details ul#myTab li{
+	width: 33.3%;
+}
+
+#detail{
+	line-height: 25px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	margin-bottom: 60px;
+}
+
+#myTabContent #detail img{
+	width: 100%;
+}
+
+#comments{
+	margin-bottom: 60px;
+}
+
+#comments .comment{
+	margin: 10px;
+}
+
+#comments .comment .person img.user{
+	width: 60px;
+	float: left;
+	border-radius: 30px;
+}
+
+#comments .comment .person p{
+	font-size: 2rem;
+	text-indent: 20px;
+	margin: 15px 0;
+	width: 55%;
+}
+
+#comments .comment .person small,#comments .comment .person span{
+	float: right;
+	clear: both;
+	margin-top: -55px;
+}
+
+#comments .comment .person span img{
+	width: 15%;
+	margin-top: 30px;
+}
+
+#comments .comment .commentText{
+	line-height: 25px;
+	clear: both;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#comments .comment .commentImg{
+	width: 100%;
+}
+
+#comments .comment .commentImg img{
+	width: 30%;
+	padding: 1%;
+}
+
+#comments .comment .salerReply .saler{
+	color: #ffa500;
+}
+
+#comments .comment{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+#record div p{
+	color: #ccc;
+	font-size: 1.7rem;
+	border-bottom: 1px solid #ccc;
+}
+
+#record{
+	margin-bottom: 0px;
+}
+
+#order span .userImg{
+	border-radius: 30px;
+}
+#order span{
+	float: left;
+	width: 25%;
+	text-align: center;	
+}
+
+.done span .userImg{
+	border-radius: 30px;
+}
+
+.done span{
+	text-align: center;
+}
+
+.done span.imgU{
+	float: left;
+}
+
+.done .infoDone{
+	float: right;
+	font-size: 1.6rem;
+}
+
+.done .infoDone .money{
+	color: #f00;
+}
+
+.done .infoDone span{
+	font-weight: bolder;
+}
+
+.doneUser{
+	height: 200px; 	
+}
+
+.main_nav_bottom .glyphicon{
+	margin-top: 13px;
+	font-size:2rem;
+	color: #000;
+}
+
+.main_nav_bottom .btn {
+	margin-top: 5px;
+}

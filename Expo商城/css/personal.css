@@ -1,0 +1,139 @@
+/*头部*/
+#header{
+	max-width: 980px;
+	width: 100%;
+	min-height: 42px;
+	background: #49a6ec;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.leave{
+	margin: -8px 0 0 20px;
+	vertical-align: middle;
+	font-size:2rem;
+	width: 35%;
+	color: #fff;
+}
+
+span.header{
+	display: inline-block;
+	/*text-align: right;*/
+	margin-top: 5px;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+/*个人资料部分*/
+section#me{
+	width: 100%;
+	max-width: 980px;
+}
+
+.me{
+	width: 40%;
+	margin: 20px auto;
+	text-align: center;	
+}
+
+.me .headImg img{
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+.me .name{
+	font-size: 2rem;
+	display: inline;
+	padding-top: 5px;
+}
+.me .sex{
+	padding-left: 10px;
+}
+.me p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#shoppingMes{
+	width: 100%;
+}
+
+#shoppingMes .shoppingMes li{
+	list-style: none;
+	float: left;
+	width: 30%;
+	border-right: 1px solid #49a6ec;
+	text-align: center;	
+}
+
+#shoppingMes .shoppingMes li.last{
+	border: 0px;
+}
+
+#shoppingMes .shoppingMes li span{
+	color: #000;
+	font-size: 1.7rem;
+}
+
+.aboutMe div{
+	width: 100%;
+	max-width: 980px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 2rem;	
+}
+
+.aboutMe div .left{
+	width: 20px;
+	margin: 0 20px;
+}
+
+.aboutMe div .right{
+	float: right;
+	margin: 14px 15px 0;
+}
+
+.aboutMe .btn-danger{
+	font-size:2rem;
+	width: 100%;
+	text-align: center;
+}
+
+.aboutMe a{
+	color: #000;
+	text-decoration: none;
+}
+
+/*底部部分*/
+.nav-tabs{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+.main_nav_bottom .navbar-fixed-bottom .navbar .navbar-default{
+	max-width: 980px;
+	width: 100%;
+}
+
+.main_nav_bottom ul li span{
+	margin-top: 10px;
+}
+
+.main_nav_bottom ul a{
+	color: #000;
+	font-size: 1.6rem;
+}
+
+.main_nav_bottom ul a .active{
+	color: #49a6ec;
+	font-size:1.7rem;
+}
+
+footer{
+	text-align: center;
+	color: #ccc;
+	font-size: 1.4rem;
+	margin-top: 10px;
+	margin-bottom: 70px;
+}

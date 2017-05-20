@@ -1,0 +1,57 @@
+/*头部*/
+#header{
+	max-width: 980px;
+	width: 100%;
+	min-height: 42px;
+	background: #49a6ec;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.leave{
+	margin: -8px 0 0 20px;
+	vertical-align: middle;
+	font-size:2rem;
+	width: 35%;
+	color: #fff;
+}
+
+span.header{
+	display: inline-block;
+	/*text-align: right;*/
+	margin-top: 5px;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+/*登录界面设置*/
+
+.form-horizontal{
+	margin-top: 15px;
+}
+.form-group .btn{
+	width: 100%;
+}
+
+.forget span{
+	text-decoration: none;
+	float: right;
+	padding-right: 10px;
+}
+
+.forget .register{
+	float: left;
+	padding-left: 10px;
+}
+
+.font1{
+	font-size: 1.6rem;
+	font-family: '微软雅黑';
+}
+
+.loginL{
+	float: right;
+	padding-right: 10px;
+}

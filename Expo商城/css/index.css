@@ -1,0 +1,174 @@
+/*头部部分*/
+.indexNav{
+	min-height: 42px;
+	background: #49a6ec;
+	box-shadow: 0px 3px #59BCE5;
+}
+
+.indexLogo{
+	float: left;
+	width: 50%;
+	height: 43px;
+	font-size: 2rem;
+	vertical-align: middle;
+}
+
+.indexLogo a{
+	display: inline-block;
+	margin-top: 4px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.indexLogo a span{
+	font-size: 2.5rem;
+}
+
+.city{
+	float: left;
+	width: 40%; 
+	text-align: right;
+	margin-top: 10px;
+	font-size: 1.6rem;
+}
+
+.city ::after{
+	width: 90%;
+	background:transparent url("../img/home.png") no-repeat scroll;
+	content: '';
+    width: 19px;
+    height: 25px;
+    background-size: 110px auto;
+    background-position: -90px -137px;
+    position: absolute;
+    right: 6px;
+    top: auto;
+    bottom: auto;
+    margin-top: -5px;
+}
+
+.city a{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*搜索栏部分*/
+#search_box{
+	max-width: 980px;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	background:rgba(0,0,0,0.2);
+	box-shadow: 0 2px #ccc;
+	position: absolute;
+	z-index: 9999;
+}
+
+#search_box input{
+	width: 60%;
+	height: 30px;
+	border-radius: 10px;
+	text-indent: 10px;
+}
+
+#search_box a{
+	color: #000;
+}
+
+#search_box span{
+	width: 10%;
+}
+
+/*导航部分*/
+.navList{
+	max-width: 980px;
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	top: 100px;
+}
+
+.listIndex{
+	width: 100%;
+	height: 70px;
+	padding-left: 0px;
+	text-decoration: none;
+}
+
+.listIndex li{
+	width: 17%;
+	height: 80%;	
+	display: inline-block;
+	float: left;
+	margin: 20px 4%;
+	vertical-align: middle;
+	text-align: center;
+	list-style-type: none;
+}
+																		
+.listIndex li span{
+	/*padding: 20px;*/
+	background: #ccc;
+	border: 20px solid #ccc;
+	border-radius: 50%;
+}
+
+.listIndex li a{
+	vertical-align: middle;
+	margin-top: 50px;
+	color: #000;
+}
+
+.listIndex li.com span{
+	background: #ff9545;
+	border: 20px solid #ff9545;
+	border-radius: 50%;
+}
+
+.listIndex li.special span{
+	background: #ff585d;
+	border: 20px solid #ff585d;
+	border-radius: 50%;
+}
+
+.listIndex li.love span{
+	background: #aec95f;
+	border: 20px solid #aec95f;
+	border-radius: 50%;
+}
+
+.listIndex li.comments span{
+	background: #af68be;
+	border: 20px solid #af68be;
+	border-radius: 50%;
+}
+
+.navList .listIndex li span{
+	font-size: 2rem;
+}
+
+/*底部部分*/
+.nav-tabs{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+.main_nav_bottom .navbar-fixed-bottom .navbar .navbar-default{
+	max-width: 980px;
+	width: 100%;
+}
+
+.main_nav_bottom ul li span{
+	margin-top: 10px;
+}
+
+.main_nav_bottom ul a{
+	color: #000;
+	font-size: 1.6rem;
+}
+
+.main_nav_bottom ul a .active{
+	color: #49a6ec;
+	font-size:1.7rem;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Expo商品列表页</title>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+</head>
+<body>
+<!-- 头部部分 -->
+	<header id="header">
+		<a href="index1.html"><span class="glyphicon glyphicon-menu-left leave"></span></a><span class="header">商品列表</span>
+	</header>
+
+	
+<!-- 搜索栏 -->
+	<div class="input-group listSearch">	
+  		<input type="text" class="form-control" placeholder="请输入商品名称" aria-describedby="basic-addon1">
+  		<span class="input-group-addon" id="basic-addon1"><span class="
+glyphicon glyphicon-search"></span></span>
+		<span class="input-group-addon" id="basic-addon1"><span class="
+glyphicon glyphicon-chevron-down downList"></span></span>
+	</div>
+	
+	<!-- 商品筛选列表 -->
+	<div id="show" style="display:none;">
+		<div class="show">
+			<h3>饮品</h3>
+			<ul class="showList">
+				<a href="#"><li>可乐</li></a>
+				<a href="#"><li>雪碧</li></a>
+				<a href="#"><li>咖啡</li></a>
+			</ul>
+		</div>
+		<br>
+		<div class="show">
+			<h3>饮品</h3>
+			<ul class="showList">
+				<a href="#"><li>可乐</li></a>
+				<a href="#"><li>雪碧</li></a>
+				<a href="#"><li>咖啡</li></a>
+			</ul>
+		</div>
+		<br>
+		<div class="show">
+			<h3>饮品</h3>
+			<ul class="showList">
+				<a href="#"><li>可乐</li></a>
+				<a href="#"><li>雪碧</li></a>
+				<a href="#"><li>咖啡</li></a>
+			</ul>
+		</div>
+
+	</div>
+
+<!-- 轮播展示 -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/m1.jpg" width="100%" alt="奇异果">
+    </div>
+    <div class="item">
+      <img src="img/m2.jpg" width="100%" alt="草莓">
+    </div>
+    <div class="item">
+      <img src="img/m3.jpg" width="100%" alt="水果">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- 热销产品 -->
+	<div id="hotHeader">
+		<a href="#"><span class="glyphicon glyphicon-th-list"></span>商品列表</a>
+	</div>
+	<div>
+		<div id="hotList">
+			<ul class="hotList">
+				<a href="detail.html"><li class="item">
+					<div class="hotImg"><img src="img/m2.jpg"></div>
+					<div class="hotIntro">
+						<h1>九九牛奶草莓</h1>
+						<p class="intro">拥有二十年草莓种植经验.......全程采用农家肥 科学除草 不使用除草剂 。新鲜采摘 基地直发 顺丰携程 路上损伤 坏果包赔 请你放心购买。您的信任就是我们前进的动力！ 诚招合作13081263833</p>
+						<h2>
+							<span>优惠</span>
+							<span>及时</span>
+						</h2>
+						<br>
+						<div class="price">
+							￥
+							<span>99</span>
+							.00
+							<small class="payed">16人已付款</small>
+						</div>
+					</div>
+				</li></a>
+				<a href="detail.html"><li class="item">
+					<div class="hotImg"><img src="img/m2.jpg"></div>
+					<div class="hotIntro">
+						<h1>九九牛奶草莓</h1>
+						<p class="intro">拥有二十年草莓种植经验.......全程采用农家肥 科学除草 不使用除草剂 。新鲜采摘 基地直发 顺丰携程 路上损伤 坏果包赔 请你放心购买。您的信任就是我们前进的动力！ 诚招合作13081263833</p>
+						<h2>
+							<span>优惠</span>
+							<span>及时</span>
+						</h2>
+						<br>
+						<div class="price">
+							￥
+							<span>99</span>
+							.00
+							<small class="payed">16人已付款</small>
+						</div>
+					</div>
+				</li></a>
+				<a href="detail.html"><li class="item">
+					<div class="hotImg"><img src="img/m2.jpg"></div>
+					<div class="hotIntro">
+						<h1>九九牛奶草莓</h1>
+						<p class="intro">拥有二十年草莓种植经验.......全程采用农家肥 科学除草 不使用除草剂 。新鲜采摘 基地直发 顺丰携程 路上损伤 坏果包赔 请你放心购买。您的信任就是我们前进的动力！ 诚招合作13081263833</p>
+						<h2>
+							<span>优惠</span>
+							<span>及时</span>
+						</h2>
+						<br>
+						<div class="price">
+							￥
+							<span>99</span>
+							.00
+							<small class="payed">16人已付款</small>
+						</div>
+					</div>
+				</li></a>
+				<a href="detail.html"><li class="item">
+					<div class="hotImg"><img src="img/m2.jpg"></div>
+					<div class="hotIntro">
+						<h1>九九牛奶草莓</h1>
+						<p class="intro">拥有二十年草莓种植经验.......全程采用农家肥 科学除草 不使用除草剂 。新鲜采摘 基地直发 顺丰携程 路上损伤 坏果包赔 请你放心购买。您的信任就是我们前进的动力！ 诚招合作13081263833</p>
+						<h2>
+							<span>优惠</span>
+							<span>及时</span>
+						</h2>
+						<br>
+						<div class="price">
+							￥
+							<span>99</span>
+							.00
+							<small class="payed">16人已付款</small>
+						</div>
+					</div>
+				</li></a>
+				<a href="detail.html"><li class="item">
+					<div class="hotImg"><img src="img/m2.jpg"></div>
+					<div class="hotIntro">
+						<h1>九九牛奶草莓</h1>
+						<p class="intro">拥有二十年草莓种植经验.......全程采用农家肥 科学除草 不使用除草剂 。新鲜采摘 基地直发 顺丰携程 路上损伤 坏果包赔 请你放心购买。您的信任就是我们前进的动力！ 诚招合作13081263833</p>
+						<h2>
+							<span>优惠</span>
+							<span>及时</span>
+						</h2>
+						<br>
+						<div class="price">
+							￥
+							<span>99</span>
+							.00
+							<small class="payed">16人已付款</small>
+						</div>
+					</div>
+				</li></a>
+			</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/list.js"></script>
+</body>
+</html>

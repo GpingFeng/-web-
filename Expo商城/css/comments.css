@@ -1,0 +1,179 @@
+/*头部*/
+#header{
+	max-width: 980px;
+	width: 100%;
+	min-height: 42px;
+	background: #49a6ec;
+	margin: 0 auto;
+}
+
+.leave{
+	margin: 10px 0 0 20px;
+	vertical-align: middle;
+	font-size:2rem;
+	float: left;
+	vertical-align: middle;
+	margin-bottom: 3px;
+	float: left;
+	display: inline-block;
+	color: #fff;
+	width: 30%;
+}
+	
+.header{
+	display: inline-block;
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-top: 7px;
+	color: #fff;
+	font-size: 2rem;	
+}
+
+.listLeft{
+	float: right;
+	font-size: 2rem;
+	margin: 8px 20px;
+	color: #fff;	
+}
+
+.done{
+	width: 50%;
+}
+
+.waited{
+	width: 50%;
+}
+
+.doneCon{
+	margin-top: 20px;
+	color: #000;
+	height: 140px;
+	border-bottom: 1px solid #ccc;
+}
+
+.doneCon img{
+	float: left;
+}
+
+.doneCon h2{
+	font-size: 1.6rem;
+}
+
+.conRight{
+	/*padding-left: 10px;*/
+	float: right;
+	position: relative;
+	top: -25px;
+}
+
+.conRight .left,.conRight .right,.conRight .payed{
+	font-size: 1.2rem;
+	color: #ccc;
+}
+
+.conRight .right,.conRight .payed .money{
+	color: #f00;
+	font-size: 1.5rem;
+	padding: 5px;
+}
+
+.conRight .payed .money{
+	font-size: 2rem;
+}
+
+.conRight .payed {
+	float: right;
+}
+
+.commentInfo{
+	clear: both;
+}
+
+.commentInfo .status{
+	float: left;
+	margin-top: 5px;
+}
+
+/*底部部分*/
+.nav-tabs{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+.main_nav_bottom .navbar-fixed-bottom .navbar .navbar-default{
+	max-width: 980px;
+	width: 100%;
+}
+
+.main_nav_bottom ul li span{
+	margin-top: 10px;
+}
+
+.main_nav_bottom ul a{
+	color: #000;
+	font-size: 1.6rem;
+}
+
+.main_nav_bottom ul a .active{
+	color: #49a6ec;
+	font-size:1.7rem;
+}
+
+.comments{
+	margin-bottom: 60px;
+}
+
+.comments .comment{
+	margin: 10px;
+}
+
+.comments .comment .person img.user{
+	width: 60px;
+	float: left;
+	border-radius: 30px;
+}
+
+.comments .comment .person p{
+	font-size: 2rem;
+	text-indent: 20px;
+	margin: 15px 0;
+	width: 55%;
+}
+
+.comments .comment .person small,.comments .comment .person span{
+	float: right;
+	clear: both;
+	margin-top: -55px;
+}
+
+.comments .comment .person span img{
+	width: 15%;
+	margin-top: 30px;
+}
+
+.comments .comment .commentText{
+	line-height: 25px;
+	clear: both;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.comments .comment .commentImg{
+	width: 100%;
+}
+
+.comments .comment .commentImg img{
+	width: 30%;
+	padding: 1%;
+}
+
+.comments .comment .salerReply .saler{
+	color: #ffa500;
+}
+
+.comments .comment{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,36 @@
+/*头部*/
+#header{
+	max-width: 980px;
+	width: 100%;
+	min-height: 42px;
+	background: #49a6ec;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.leave{
+	margin: -8px 0 0 20px;
+	vertical-align: middle;
+	font-size:2rem;
+	width: 35%;
+	color: #fff;
+}
+
+span.header{
+	display: inline-block;
+	/*text-align: right;*/
+	margin-top: 5px;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+/*内容部分*/
+.conSuccess{
+	font-size: 2rem;
+	text-align: center;
+}
+
+.conSuccess div.con{
+	margin-top:200px;
+}
