@@ -113,6 +113,11 @@
 	overflow: hidden;
 }
 
+.shop_con .con_product .product_info p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 .shop_con .con_product .product_info .price{
 	color: #f00;
 	font-size: 1.6rem;
@@ -215,18 +220,21 @@
 
 .account .account_info{
 	position: relative;
-	top: -10px;
-	margin-left: 61px;
+	/*top: -10px;*/
+	margin-left: 50px;
 	display: inline-block;
 	/*height: 70px;*/
-	margin-top: -20px;
+	/*margin-top: -20px;*/
+	float: left;
 }
 
 .account .go{
 	display: inline-block;
 	height: 70px;
 	background: #FF9F9F;
-	padding: 0 5px;
+	padding: 0 0px;
+	/*width: 60px;*/
+	float: right;
 }
 .account .account_info .sum{
 	/*font-size: 2rem;*/
