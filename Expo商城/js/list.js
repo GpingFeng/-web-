@@ -5,5 +5,4 @@ $(document).ready(function(){
 	$(".downList").click(function(){
 		$("#show").show();
 	});
-	
 });

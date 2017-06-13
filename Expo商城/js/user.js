@@ -1,6 +1,6 @@
 var user =
 {
-    'email' : 'guangping@qq.com',
-    'password': 123456        
+    'email' : '123@qq.com',
+    'password': 123        
 };
 
